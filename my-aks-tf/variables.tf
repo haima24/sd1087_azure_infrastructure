@@ -1,6 +1,6 @@
 variable "region" {
-  type        = string
-  description = "aks region where the resources are being created"
+  description = "AKS region where the resources are being created"
+  default     = "eastasia"
 }
 
 variable "cluster_name" {
